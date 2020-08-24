@@ -8,4 +8,6 @@ The stored user is used whenever authentication is required, and the user is fet
 
 Because of the Blazor lifecycle (or something), server prerendering must be disabled, find this setting in /Pages/_Host.cshtml.
 
+The App.razor must be modified.
+
 Minimal security has been considered, this is mainly for toy examples.
