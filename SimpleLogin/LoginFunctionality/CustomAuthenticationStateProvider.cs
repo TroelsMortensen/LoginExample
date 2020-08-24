@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.JSInterop;
 
-public class CustomAuthenticationStateProvider : AuthenticationStateProvider {
+public class CustomAuthenticationStateProvider : AuthenticationStateProvider { 
+    // TODO implement custom interface, which extends the above,
+    // to avoid casting when this class is used. 
     private List<User> users;
 
-    // private User currentUser;
+    // private User currentUser; TODO cache user, instead of reading every time.
     private readonly IJSRuntime _jSRuntime;
 
     // private readonly IJSInProcessRuntime _jSInProcessRuntime;
