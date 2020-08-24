@@ -11,3 +11,7 @@ Because of the Blazor lifecycle (or something), server prerendering must be disa
 The App.razor must be modified.
 
 Minimal security has been considered, this is mainly for toy examples.
+
+The example is inspired by my students: Jacob, Jesper, Tobias.
+The storage of session data is inspired by Blazored.
+
